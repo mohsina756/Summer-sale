@@ -22,7 +22,7 @@ if(total > 0){
     const makePurchaseBtn =  document.getElementById('make-purchase')
     makePurchaseBtn.removeAttribute('disabled')
 }
-if(total => 200){
+if(total >= 200){
     const applyBtn = document.getElementById('apply')
     applyBtn.removeAttribute('disabled') 
 }

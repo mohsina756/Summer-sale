@@ -27,10 +27,12 @@
 </style>
 </head>
 <body class="font-work">
-    <header class="container mx-auto">
-        <div class="hero min-h-screen ">
-            <div class="hero-content flex-col lg:flex-row-reverse">
+    <header class=" bg-[#F9F6E2]">
+        <div class="hero min-h-screen">
+            <div class="hero-content flex-col lg:flex-row-reverse gap-32">
+              <div>
               <img src="./images/Summer 1.png" class="max-w-sm rounded-lg shadow-2xl" />
+            </div>
               <div>
                 <h1 class="text-xl font-normal">---SALE FEVER---</h1>
                 <p class="py-6 font-bold text-3xl">Purchase TK 200 or<br>above & get <span style="color: #E527B2;">20% off</span></p>
@@ -43,11 +45,11 @@
           </div>
     </header>
     <main>
-        <section class="flex gap-16 p-10">
+        <section class="flex flex-col lg:flex-row  gap-16 p-10">
             <!-- card section -->
-            <div class="w-[70%]">
+            <div class=" w-full lg:w-[70%]">
                 <h1 class="text-3xl font-bold">Kitchenware</h1>
-                <div class="grid grid-cols-3 gap-6">
+                <div class="grid lg:grid-cols-3 gap-6">
                     <!-- 1st card -->
                     <div onclick="handleOnClick(this)" class="card bg-base-100 shadow-xl">
                         <figure> <img src="./images/prod1.png" alt=""></figure>
@@ -96,7 +98,7 @@
                 </div>
                 <!-- 2nd section -->
                 <h1 class="text-3xl font-bold">Sportswear</h1>
-                <div class="grid grid-cols-3 gap-6">
+                <div class="grid lg:grid-cols-3 gap-6">
                     <!-- 1st card. -->
                     <div onclick="handleOnClick(this)" class="card bg-base-100 shadow-xl">
                         <figure> <img src="./images/prod4.png" alt=""></figure>
@@ -145,7 +147,7 @@
                 </div>
             </div>
             <!-- 3rd sidebar section -->
-            <div class="w-[30%]">
+            <div class=" w-full lg:w-[30%]">
                 <div>
                     Have a coupon?
                     <div class="flex">
